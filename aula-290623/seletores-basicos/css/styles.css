@@ -9,14 +9,16 @@
 h1 {
     /*qualquer <h1> será afetado*/
     color: orange;
-    font-style: italic;;
+    font-style: italic;
+    ;
 }
 
 /*seletor por id*/
 #elemento1 {
-    /*só se aplica a um único elemento*/   color:red;
+    /*só se aplica a um único elemento*/
+    color: red;
     font-style: italic;
-    font-family:monospace;
+    font-family: monospace;
 }
 
 /*eletor por classe*/
@@ -27,4 +29,26 @@ h1 {
 
 .sublinhado {
     text-decoration: underline;
+}
+
+/* Combinadores de descendente */
+.secao1 {
+    background-color: coral;
+}
+
+/* Selecione qualquer imagem dentro de .secao1 */
+.secao1 img {
+    width: 300px;
+}
+
+.secao1 h3 {
+    color: white;
+}
+
+.secao1 p {
+    text-align: justify;
+}
+
+body {
+    background-color: wheat;
 }
